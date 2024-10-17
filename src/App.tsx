@@ -5,11 +5,21 @@ import { nanoid } from 'nanoid';
 import SharedLayout from './components/SharedLayout/SharedLayout.tsx';
 import Home from './pages/Home/Home.tsx';
 import NotFound from './pages/NotFound/NotFound.tsx';
-import Basket from './pages/Basket/Basket.tsx'
+import Basket from './pages/Basket/Basket.tsx';
+import Services from './pages/Services/Services.tsx';
+import Store from './pages/Store/Store.tsx';
+import About from './pages/About/About.tsx';
+import Information from './pages/Information/Information.tsx';
+import Contacts from './pages/Contacts/Contacts.tsx';
 
 import './App.css';
 
-const BASKET = '/courses';
+const BASKET = '/basket';
+const SERVICES = '/services';
+const STORE = '/store';
+const ABOUT = '/about';
+const INFORMATION = '/information';
+const CONTACTS = '/contacts';
 const NOTFOUND = '/*';
 
 const App = () => {
@@ -18,6 +28,16 @@ const App = () => {
   const appRoutes = [
   
   {path: BASKET, element: <Basket />,}, 
+
+  {path: SERVICES, element: <Services />,},
+
+  {path: STORE, element: <Store />,},
+
+  {path: ABOUT, element: <About />,},
+
+  {path: INFORMATION, element: <Information />,},
+
+  {path: CONTACTS, element: <Contacts />,},
   
   {path: NOTFOUND, element: <NotFound />,},
   

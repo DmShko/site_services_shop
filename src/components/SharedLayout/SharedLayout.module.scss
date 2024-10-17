@@ -1,0 +1,21 @@
+header {
+    
+    height: 50px;
+
+    .navList {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        gap: 10px;
+
+        list-style: none;
+
+        .navItem {
+            padding: 3px;
+        }
+
+    }
+    
+}
