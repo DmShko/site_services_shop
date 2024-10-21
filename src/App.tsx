@@ -7,7 +7,7 @@ import Home from './pages/Home/Home.tsx';
 import NotFound from './pages/NotFound/NotFound.tsx';
 import Basket from './pages/Basket/Basket.tsx';
 import Services from './pages/Services/Services.tsx';
-import Store from './pages/Store/Store.tsx';
+import Store from './pages/Shop/Shop.tsx';
 import About from './pages/About/About.tsx';
 import Information from './pages/Information/Information.tsx';
 import Contacts from './pages/Contacts/Contacts.tsx';

@@ -2,14 +2,14 @@ import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
 
-const Store: FC = () => {
+const Shop: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Store</h1>
+      <h1>Shop</h1>
     </PageContainer>
     
   )
 }
 
-export default Store
+export default Shop;
