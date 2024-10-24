@@ -1,15 +1,16 @@
 import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
+import Information from '../../components/Information/Information';
 
-const Information: FC = () => {
+const InformationPage: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Information</h1>
+      <Information/>
     </PageContainer>
     
   )
 }
 
-export default Information
+export default InformationPage;

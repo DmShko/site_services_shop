@@ -8,7 +8,7 @@ const SharedLayout: FC = () => {
     return (
         <>
           <header className={sh.header}>
-            <h1 className={sh.logo}>DServices</h1>
+            <h1 className={sh.logo}>DS</h1>
             <ul className={sh.navList}>
               <li className={sh.navItem}>
                 <NavLink to={"/services"}>services</NavLink>

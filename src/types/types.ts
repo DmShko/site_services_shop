@@ -1,5 +1,6 @@
 export interface Goods {
-    name: [],
+    id: string,
+    name: string,
     quantity: number,
     cost: number
 }

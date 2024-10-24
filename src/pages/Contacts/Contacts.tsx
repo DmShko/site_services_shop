@@ -1,15 +1,16 @@
 import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
+import Contacts from '../../components/Contacts/Contacts';
 
-const Contacts: FC = () => {
+const ContactsPage: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Contacts</h1>
+      <Contacts/>
     </PageContainer>
     
   )
 }
 
-export default Contacts
+export default ContactsPage;

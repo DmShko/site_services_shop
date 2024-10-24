@@ -1,15 +1,16 @@
 import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
+import Services from '../../components/Services/Services';
 
-const Services: FC = () => {
+const ServicesPage: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Services</h1>
+      <Services/>
     </PageContainer>
     
   )
 }
 
-export default Services
+export default ServicesPage;

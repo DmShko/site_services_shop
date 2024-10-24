@@ -1,15 +1,16 @@
 import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
+import Basket from '../../components/Basket/Basket';
 
-const Courses: FC = () => {
+const BasketPage: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Basket</h1>
+      <Basket/>
     </PageContainer>
     
   )
 }
 
-export default Courses
+export default BasketPage;

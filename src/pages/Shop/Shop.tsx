@@ -1,15 +1,16 @@
 import { FC } from 'react';
 
 import PageContainer from '../../components/PageContainer/PageContainer';
+import Shop from '../../components/Shop/Shop';
 
-const Shop: FC = () => {
+const ShopPage: FC = () => {
   return (
     
     <PageContainer>
-      <h1>Shop</h1>
+      <Shop/>
     </PageContainer>
     
   )
 }
 
-export default Shop;
+export default ShopPage;
